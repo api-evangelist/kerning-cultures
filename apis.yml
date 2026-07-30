@@ -1,8 +1,23 @@
 aid: kerning-cultures
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kerning-cultures.png
 name: Kerning Cultures
-description: Kerning Cultures is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Kerning Cultures is a Middle East and North Africa media company producing narrative
+  journalism and audio storytelling podcasts in Arabic and English. Based in Dubai, UAE and backed by
+  500 Global, the Kerning Cultures Network creates original shows, branded audio, and advertising for a
+  regional listener audience. It operates as a consumer media and content brand and does not publish a
+  public developer API, OpenAPI specification, SDKs, or a developer portal; this profile is maintained
+  in the API Evangelist network as a company record awaiting any future API surface.
 url: https://raw.githubusercontent.com/api-evangelist/kerning-cultures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Media
+- Podcast
+- Audio
+- Content
+- Storytelling
+- Publishing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +45,8 @@ maintainers:
 common:
 - type: Website
   url: https://kerningcultures.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
